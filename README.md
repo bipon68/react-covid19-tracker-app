@@ -10,7 +10,7 @@
 
 ## Topics Cover
 - create react app
-
+- axios, get
 ## Quick Start
 
 1.  Clone the repo `git clone https://github.com/bipon68/react-covid19-tracker-app`
