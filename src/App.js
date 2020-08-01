@@ -11,7 +11,8 @@ import { fetchData } from './api';
 class App extends Component {
 
   state = {
-    data : {}
+    data : {},
+    countries: ''
   }
 
   async componentDidMount(){
@@ -19,9 +20,13 @@ class App extends Component {
     console.log('feched data: ', fetchedData);
     this.setState({
       data: fetchedData
-    })
+    })    
+  }
 
-    
+  handleCountryChange = async (country) => {
+    console.log(country)
+    // fetch the data
+    // set the state
   }
 
   render(){
@@ -29,8 +34,9 @@ class App extends Component {
     return (
       <div className={styles.container}>
         <Cards data={data}/>
+        <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart />
-        <CountryPicker />
+        
       </div>
     );
   }

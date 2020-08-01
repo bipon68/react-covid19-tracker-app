@@ -1,6 +1,6 @@
 # [COVID-19 Tracker Application - React JS Project (Hooks, Material UI, Charts js)](https://www.youtube.com/watch?v=khJlrj3Y6Ls)
 
-### [COVID-19 Tracker API](https://covid19.mathdro.id/api)
+### API used : (https://covid19.mathdro.id/api)
 
 ## Project creation step
 
