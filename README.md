@@ -13,15 +13,17 @@
 ## Topics Cover
 - create react app
 - axios, get
-## Quick Start
+- chart
 
+## Quick Start
 1.  Clone the repo `git clone https://github.com/bipon68/react-covid19-tracker-app`
 2.  Go to your project folder from your terminal
 3.  Run: `npm install` or `yarn install`
 4.  After install, run: `npm run dev`
 5.  It will open your browser(http://localhost:3000)
 
-## Note
+## Reference
+- [react-chartjs-2](https://www.npmjs.com/package/react-chartjs-2)
 
 ## Channel: [JavaScript Mastery](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A)
 
