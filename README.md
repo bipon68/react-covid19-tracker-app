@@ -5,7 +5,7 @@
 ## Project creation step
 
 - `create-react-app react-covid19-tracker-app`
-- `npm i axios react-bootstrap`
+- `npm i axios react-chartjs-2 react-countup classnames`
 - `npm start` or `yarn start`
 
 ## Topics Cover
@@ -21,7 +21,7 @@
 
 ## Note
 
-## Instructor: [Derek Jensen](https://tutsplus.com/authors/derek-jensen)
+## Channel: [JavaScript Mastery](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
