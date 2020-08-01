@@ -10,10 +10,18 @@ import { fetchData } from './api';
 
 class App extends Component {
 
-  async componentDidMount(){
-    const data = await fetchData();
+  state = {
+    data : {}
+  }
 
-    console.log(data);
+  async componentDidMount(){
+    const fetchedData = await fetchData();
+    console.log(fetchedData);
+    this.setState({
+      data: fetchedData
+    })
+
+    
   }
 
   render(){
