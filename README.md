@@ -6,6 +6,7 @@
 
 - `create-react-app react-covid19-tracker-app`
 - `npm i axios react-chartjs-2 react-countup classnames`
+- `npm i --save @material-ui/core`
 - `npm start` or `yarn start`
 
 ## Topics Cover
